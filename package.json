@@ -1,0 +1,24 @@
+{
+  "name": "codechallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test"
+  },
+  "author": "Declan McLaughlin",
+  "license": "ISC",
+  "dependencies": {
+    "@types/line-reader": "0.0.28",
+    "@types/node": "^13.9.1",
+    "line-reader": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.9",
+    "jasmine": "^3.5.0",
+    "nyc": "^15.0.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
