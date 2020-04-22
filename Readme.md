@@ -47,3 +47,5 @@ JH 2C JD 2H 4C => Two pair
 Notes:
 - Aces can be the highest or lowest card of a straight or straight flush i.e. A, 2, 3, 4, 5
 or T, J, Q, K, A
+
+Changing to git
